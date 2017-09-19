@@ -17,7 +17,7 @@ public class MergeSort {
     private void mergeSort(Comparable[] A,int m,int n){
         Comparable temp;
         if(n<m)
-            throw new IllegalArgumentException("起始下标不能小于终止下标");
+            throw new IllegalArgumentException("起始下标不能小于终止下标1");
         if(n>m){
             //1.讲A[m:n]划分成两个子数组A[m:i]与A[j:n]
             int i = m+(n-m)/2;
